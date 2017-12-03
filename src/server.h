@@ -38,6 +38,7 @@ struct response {
     int status_code;
     FILE *datafile;
     char data[MAX_DATA_SIZE];
+    int data_length;
 };
 
 struct header_container {
